@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="5d2dca8c-7755-4bf6-9157-ed8e7123d368" Title="MyFriendTracker" Url="html/7d876dd5-53eb-19e9-22ff-1a2fb5eec549.htm">
+    <HelpTOCNode Id="a9fa9420-edaf-4e2d-9279-8e5fb73d914d" Title="BirthdayTracker Class" Url="html/cf407560-c6b6-00aa-392d-c4fcd2480045.htm">
+      <HelpTOCNode Title="BirthdayTracker Constructor " Url="html/5df31277-741b-e6e3-4661-62091f31f62b.htm" />
+      <HelpTOCNode Title="BirthdayTracker Properties" Url="html/4ab04352-f7d4-a2a5-03d4-0ae027408c6d.htm" />
+      <HelpTOCNode Id="04a333a4-d33b-453d-9d9e-244c1d481f60" Title="BirthdayTracker Methods" Url="html/3972e46b-48ba-a93f-a0d9-d8c26db5364b.htm">
+        <HelpTOCNode Id="1f1ef114-f726-454f-b49e-c4f772efa55a" Title="Dispose Method " Url="html/27951771-de81-48bf-d77b-74efa39c98f8.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/4e883c99-90ea-a2be-f939-ea8cd784a0e1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetTable Method " Url="html/954413ec-8ebc-54d8-23e9-49986b4f728b.htm" />
+        <HelpTOCNode Title="ShowData Method " Url="html/dd815e9a-3225-53c0-26a9-8272c7fe74ab.htm" />
+        <HelpTOCNode Title="UpperCase Method " Url="html/72cffbf2-1ddb-d9fb-504d-a3ea8a009dca.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BirthdayTracker Events" Url="html/f34c3aa9-4e78-fb64-363a-35d4edf7409c.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

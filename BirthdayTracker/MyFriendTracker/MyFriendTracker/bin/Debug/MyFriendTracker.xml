@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyFriendTracker</name>
+    </assembly>
+    <members>
+        <member name="T:MyFriendTracker.BirthdayTracker">
+            -------------------------------------------------------------------------------------------------
+             @class  BirthdayTracker
+            
+             @brief  A birthday tracker.
+            
+             @date   28/08/2018
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:MyFriendTracker.BirthdayTracker.table">
+            @brief  The table
+        </member>
+        <member name="F:MyFriendTracker.BirthdayTracker.findRow">
+            @brief  The find row
+        </member>
+        <member name="F:MyFriendTracker.BirthdayTracker.findMonth">
+            @brief  The find month
+        </member>
+        <member name="F:MyFriendTracker.BirthdayTracker.pos">
+            @brief  The position
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.#ctor">
+            -------------------------------------------------------------------------------------------------
+             @fn public BirthdayTracker()
+            
+             @brief  Default constructor
+            
+             @date   28/08/2018
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.SizeDGV(System.Windows.Forms.DataGridView)">
+            -------------------------------------------------------------------------------------------------
+             @fn void SizeDGV(DataGridView dgv)
+            
+             @brief  Size dgv
+            
+             @date   28/08/2018
+            
+             @param  dgv The dgv.
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.ShowData(System.Data.DataTable,System.Int32)">
+            -------------------------------------------------------------------------------------------------
+             @fn public void ShowData(DataTable dgv, int index)
+            
+             @brief  Shows the data
+            
+             @date   28/08/2018
+            
+             @param  dgv     The dgv.
+             @param  index   Zero-based index of the.
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.UpperCase(System.String)">
+            -------------------------------------------------------------------------------------------------
+             @fn public static string UpperCase(string s)
+            
+             @brief  Upper case
+            
+             @date   28/08/2018
+            
+             @param  s   The string.
+            
+             @return A string.
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.btnExit_Click(System.Object,System.EventArgs)">
+            -------------------------------------------------------------------------------------------------
+             @fn private void btnExit_Click(object sender, EventArgs e)
+            
+             @brief  Event handler. Called by btnExit for click events
+            
+             @date   28/08/2018
+            
+             @param  sender  Source of the event.
+             @param  e       Event information.
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.btnNew_Click(System.Object,System.EventArgs)">
+            -------------------------------------------------------------------------------------------------
+             @fn private void btnNew_Click(object sender, EventArgs e)
+            
+             @brief  Event handler. Called by btnNew for click events
+            
+             @date   28/08/2018
+            
+             @param  sender  Source of the event.
+             @param  e       Event information.
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.btnSave_Click(System.Object,System.EventArgs)">
+            -------------------------------------------------------------------------------------------------
+             @fn private void btnSave_Click(object sender, EventArgs e)
+            
+             @brief  Event handler. Called by btnSave for click events
+            
+             @date   28/08/2018
+            
+             @param  sender  Source of the event.
+             @param  e       Event information.
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.btnDelete_Click(System.Object,System.EventArgs)">
+            -------------------------------------------------------------------------------------------------
+             @fn private void btnDelete_Click(object sender, EventArgs e)
+            
+             @brief  Event handler. Called by btnDelete for click events
+            
+             @date   28/08/2018
+            
+             @param  sender  Source of the event.
+             @param  e       Event information.
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.btnFind_Click(System.Object,System.EventArgs)">
+            -------------------------------------------------------------------------------------------------
+             @fn private void btnFind_Click(object sender, EventArgs e)
+            
+             @brief  Event handler. Called by btnFind for click events
+            
+             @date   28/08/2018
+            
+             @param  sender  Source of the event.
+             @param  e       Event information.
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.btnLast_Click(System.Object,System.EventArgs)">
+            -------------------------------------------------------------------------------------------------
+             @fn private void btnLast_Click(object sender, EventArgs e)
+            
+             @brief  Event handler. Called by btnLast for click events
+            
+             @date   28/08/2018
+            
+             @param  sender  Source of the event.
+             @param  e       Event information.
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.btnNext_Click(System.Object,System.EventArgs)">
+            -------------------------------------------------------------------------------------------------
+             @fn private void btnNext_Click(object sender, EventArgs e)
+            
+             @brief  Event handler. Called by btnNext for click events
+            
+             @date   28/08/2018
+            
+             @param  sender  Source of the event.
+             @param  e       Event information.
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.btnPrevious_Click(System.Object,System.EventArgs)">
+            -------------------------------------------------------------------------------------------------
+             @fn private void btnPrevious_Click(object sender, EventArgs e)
+            
+             @brief  Event handler. Called by btnPrevious for click events
+            
+             @date   28/08/2018
+            
+             @param  sender  Source of the event.
+             @param  e       Event information.
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.btnFirst_Click(System.Object,System.EventArgs)">
+            -------------------------------------------------------------------------------------------------
+             @fn private void btnFirst_Click(object sender, EventArgs e)
+            
+             @brief  Event handler. Called by btnFirst for click events
+            
+             @date   28/08/2018
+            
+             @param  sender  Source of the event.
+             @param  e       Event information.
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.btnBirthdaysInMonth_Click(System.Object,System.EventArgs)">
+            -------------------------------------------------------------------------------------------------
+             @fn private void btnBirthdaysInMonth_Click(object sender, EventArgs e)
+            
+             @brief  Event handler. Called by btnBirthdaysInMonth for click events
+            
+             @date   28/08/2018
+            
+             @param  sender  Source of the event.
+             @param  e       Event information.
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="F:MyFriendTracker.BirthdayTracker.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MyFriendTracker.BirthdayTracker.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MyFriendTracker.Friends">
+            -------------------------------------------------------------------------------------------------
+             @class  Friends
+            
+             @brief  A friends.
+            
+             @date   28/08/2018
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MyFriendTracker.Friends.GetTable">
+            -------------------------------------------------------------------------------------------------
+             @fn public static DataTable GetTable()
+            
+             @brief  Gets the table
+            
+             @date   28/08/2018
+            
+             @return The table.
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MyFriendTracker.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:MyFriendTracker.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MyFriendTracker.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MyFriendTracker.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
